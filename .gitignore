@@ -1,0 +1,22 @@
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Entorno de desarrollo / IDEs
+.vscode/
+*.code-workspace
+.idea/
+
+# Secretos, variables de entorno y certificados
+.env*
+!.env.example
+deploy_secrets.local
+*.log
+*.sql
+*.key
+*.pem
+
+# Documentos internos y planes de implementación
+contexto*.md
+implementation_plan*.md
